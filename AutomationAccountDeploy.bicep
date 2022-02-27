@@ -4,6 +4,7 @@ Creates an Azure automation account with local auth disabled and keys stored in 
 Name of AA is passed with parameter "nameVariable". Location of AA is passed with parameter "locationVariable".
 */
 
+/* test blah blah blah blah test */
 resource symbolicname 'Microsoft.Automation/automationAccounts@2021-06-22' = {
 
   name: nameVariable
